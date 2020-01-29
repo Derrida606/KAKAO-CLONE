@@ -47,16 +47,19 @@
   
   @keyframes float {
     0% {
+      transform: translateY(-100px);
       box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25),
         0 18px 36px -18px rgba(0, 0, 0, 0.3),
         0 -12px 36px -8px rgba(0, 0, 0, 0.025);
     }
     50% {
+      transform: translateY(-110px);
       box-shadow: 0 30px 60px -60px rgba(50, 50, 93, 0.25),
         0 18px 36px -18px rgba(0, 0, 0, 0.3),
         0 -12px 36px -8px rgba(0, 0, 0, 0.025);
     }
     100% {
+      transform: translateY(-100px);
       box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25),
         0 18px 36px -18px rgba(0, 0, 0, 0.3),
         0 -12px 36px -8px rgba(0, 0, 0, 0.025);
@@ -155,7 +158,7 @@
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
       rgba(0, 0, 0, 0.3) 0px 8px 16px -8px,
       rgba(0, 0, 0, 0.024) 0px -6px 16px -6px;
-    animation: spin 1s linear infinite;
+    animation: spin 5s linear infinite;
   }
   
   .message .message__bubble {
